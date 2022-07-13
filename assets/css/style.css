@@ -6,7 +6,7 @@
 }
 
 body {
-    background-color: #363b3b44;
+    background-color: #598392;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -18,17 +18,17 @@ body {
     width: 100%;
     max-width: 1000px;
     min-height: 100px;
-    background: #fff;
+    background: #86bbbd;
     margin: 50px;
     display: grid;
     grid-template-columns: 1fr 2fr;
-    box-shadow: 0 35px 55px rgba(rgb(22, 4, 4), rgb(6, 36, 6), rgb(12, 12, 22), alpha);
+    box-shadow: 0 35px 55px #124559;
 }
 
 /*Izquierda*/
 .container .left-side {
     position: relative;
-    background-color: black;
+    background-color: #01161E;
     padding: 40px;
 }
 
@@ -38,7 +38,7 @@ body {
     flex-direction: column;
     align-items: center;
     padding-bottom: 20px;
-    border-bottom: 1px solid rgba(rgb(53, 52, 52), rgb(60, 61, 60), rgb(57, 57, 58), alpha);
+    border-bottom: 1px solid #76949F;
 }
 
 .profile-text .img-bx {
@@ -78,7 +78,7 @@ body {
 }
 
 .title {
-    color: #fff;
+    color: #AEC3B0;
     text-transform: uppercase;
     font-weight: 400;
     letter-spacing: 1px;
@@ -97,7 +97,7 @@ body {
     display: inline-block;
     width: 30px;
     font-size: 18px;
-    color: goldenrod;
+    color: #AEC3B0;
 
 }
 
@@ -111,7 +111,7 @@ body {
 }
 
 .contact-info.education h5 {
-    color: goldenrod;
+    color: #6A6B83;
     font-weight: 400;
 }
 
@@ -139,9 +139,16 @@ body {
     top: 0;
     left: 0;
     height: 100%;
-    background: goldenrod;
+    background: #86BBBD;
+}
+a {
+    text-decoration: none;
+    color: #fff;
 }
 
+a:hover {
+    color: #86BBBD;
+}
 
 /*Derecha*/
 .container .right-side {
@@ -159,7 +166,7 @@ body {
 }
 
 .title2 {
-    color: goldenrod;
+    color: #5F506B;
     text-transform: uppercase;
     letter-spacing: 1px;
     margin-bottom: 10px;
@@ -186,7 +193,7 @@ p {
 
 .about .box .text h4 {
     text-transform: uppercase;
-    color: goldenrod;
+    color: #86BBBD;
     font-size: 16px;
 }
 
@@ -217,7 +224,7 @@ p {
     top: 0;
     left: 0;
     height: 100%;
-    background: goldenrod;
+    background: #86BBBD;
 }
 
 .interest ul {
@@ -233,7 +240,7 @@ p {
 }
 
 .interest ul li .fa {
-    color: goldenrod;
+    color: #6A6B83;
     font-size: 18px;
     width: 20px;
 }
